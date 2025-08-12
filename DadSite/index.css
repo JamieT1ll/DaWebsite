@@ -1,0 +1,128 @@
+html, body {
+  height: 100%;
+}
+
+body {
+    background-color: #748494;
+    margin: 0;
+    padding: 0;
+  }
+
+#root{
+  height: 100%;
+}
+
+#buttonholder {
+    position:relative;
+    left:50%;
+
+    top:85%;
+  }
+
+button {
+    background-color: black; /* Green */
+    border: none;
+    color: white;
+    left:50%;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    border-radius: 25px;
+    margin-bottom: 100px;
+  }
+
+  HTML CSS JSResult Skip Results Iframe
+EDIT ON
+.sections {
+  width: 100%;
+  position: relative;
+  z-index: 5;
+}
+.container-page {
+  width: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: purple;
+  height: 100%;
+}
+.container-page .contento {
+  position: sticky;
+  top: 0;
+}
+
+.contactbox{
+  background-color: white; /* Green */
+    border: black;
+    border: solid;
+    color: black;
+    display: block;
+    border-width: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    bottom: 50%;
+    top: 50vh;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 32px;
+    border-radius: 25px;
+    margin-bottom: 100px;
+}
+
+.one {
+  color: white;
+}
+.two {
+  color: gray;
+}
+.container-page h2 {
+  font-size: 30px;
+}
+.panel {
+  height: 100vh;
+  width: 50%;
+  margin-left: auto;
+}
+
+.description {
+  height: 100vh;
+}
+.green {
+  height: 100vh;
+}
+
+.line {
+  height: 1px;
+  width: 100%;
+  background: fuchsia;
+  position: fixed;
+  top: 15vh;
+  left: 0;
+  right: 0;
+  z-index: 1500;
+}
+
+footer {
+  height: 600px;
+  background-color: black;
+  color: #fff;
+  z-index: 10;
+}
+
+.buttonholder{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1222;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
