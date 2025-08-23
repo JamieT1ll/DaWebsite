@@ -1,8 +1,12 @@
 html, body {
   height: 100%;
-  background-color: #565758;
+  background-color: #222222;
   margin: 0;
   padding: 0;
+}
+
+#bbody{
+  background-color: #222222;
 }
 
 #root{
@@ -13,12 +17,8 @@ html, body {
   color: black;
 }
 
-#bbody{
-  background-color: #565758;
-}
-
 #ffooter{
-background-color: #565758;
+background-color: #222222;
 }
 
 #buttonholder {
@@ -57,30 +57,23 @@ EDIT ON
   background-color: purple;
   height: 100%;
 }
-.container-page .contento {
-  position: sticky;
-  top: 0;
+
+.top {
+    margin-top: 1000px;
 }
 
-.contactbox{
-  background-color: white; /* Green */
-    border: black;
-    border: solid;
+.contactbox {
+    background-color: rgb(226, 226, 226);
+    border: 10px solid black;
     color: black;
-    display: block;
-    border-width: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    bottom: 50%;
-    top: 50vh;
-    padding: 15px 32px;
     display: flex;
     justify-content: space-around;
     text-decoration: none;
     font-size: 32px;
     border-radius: 25px;
-    margin-bottom: 100px;
+    margin: 100px auto;
+    width: 80%;
+    padding: 15px 32px;
 }
 
 .one {
